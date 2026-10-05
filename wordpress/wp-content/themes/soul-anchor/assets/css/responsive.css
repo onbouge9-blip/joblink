@@ -1,0 +1,118 @@
+/* Responsive CSS */
+@media screen and (max-width:767px) {
+	*{box-sizing:border-box;}
+	.wp-block-navigation__responsive-container.is-menu-open.has-modal-open{ padding:25px;}
+	.top-area {
+	    position: static;
+	    background: var(--wp--preset--color--extra-primary);
+	    text-align: center;
+	}
+	.top-area .wp-block-navigation,
+	.top-area .wp-block-search__inside-wrapper{
+		justify-content: center;
+	}
+	.top-area .wp-block-search{
+		margin: 0;
+        float: none;
+	}
+	.top-area .wp-element-button,
+	.top-area .wp-block-columns{
+		padding: 0;
+	}
+	.wp-block-navigation__responsive-container-close{
+		color: #fff;
+	}
+	.slider-head h2{
+		font-size: 35px !important;
+	}
+	.banner-wrap{
+		min-height: 600px !important;
+	}
+}
+
+@media screen and (max-width:1169px) and (min-width:981px) { 
+	html{overflow-x:hidden; }
+}
+
+@media screen and (max-width: 980px){
+	.fse-overlap-image{ position:relative !important; right:auto !important; bottom:auto !important; margin:25px 0 !important;}
+	.wp-block-section-01 h2, .wp-block-section-02 h2{ font-size:28px !important; }
+	.wpcf7 input[type="text"], 
+	.wpcf7 input[type="tel"], 
+	.wpcf7 input[type="email"], 
+	.wpcf7 textarea{ 
+		width:100%;
+	}
+	.top-area {
+	    text-align: center;
+	}
+	.top-area .wp-block-navigation,
+	.top-area .wp-block-search__inside-wrapper{
+		justify-content: center;
+	}
+	.top-area .wp-block-search{
+		margin: 0;
+        float: none;
+	}
+	.top-area .wp-element-button{
+		padding: 0;
+	}
+	.blog-area .wp-block-post-template{
+		grid-template-columns: auto auto;
+	}
+}
+
+@media screen and (max-width:1250px) and (min-width:850px) {
+	.slider-head h2{
+		font-size: 35px !important;
+	}
+	.slider-head{
+		width: 100% !important;
+		flex-basis: 100% !important;
+		max-width: 100%;
+		padding-top: 50px !important;
+	}
+	.banner-wrap{
+		min-height: 550px !important;
+	}
+	.feat h3{
+		font-size: 24px !important;
+	}
+	.feat p{
+		font-size: 18px !important;
+	}
+	.feat{
+		padding: 30px !important;
+	}
+	.blog-area .wp-block-post-template{
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.top-area .wp-block-navigation ul {
+		gap: 13px;
+	}
+	.top-area .wp-block-navigation ul li{
+		font-size: 16px !important;
+	}
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+	.slider-head h2{
+		font-size: 35px !important;
+	}
+	.banner-wrap{
+		min-height: 650px !important;
+	}
+	.slider-head{
+		padding-top: 100px !important;
+	}
+}
+
+@media screen and (max-width:1300px) and (min-width:1px) {
+	[class*="wp-container-core-group-is-layout-"] > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: 90%;
+	}
+	.main-bann,.header-wrap,.main-slider .owl-stage-outer{
+		max-width: 100% !important;
+	}
+}

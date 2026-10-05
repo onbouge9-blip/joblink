@@ -1,0 +1,809 @@
+# Copyright (C) 2026 Themes Carts
+# This file is distributed under the GNU General Public License version 2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Soul Anchor 2.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/soul-anchor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-27T09:00:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: soul-anchor\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/patterns/footer-default.php:106
+msgid "Soul Anchor"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+#: functions.php:31
+msgid "https://www.themescarts.com/products/free-travel-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Selecting the right WordPress theme for your lifestyle blog is essential for creating an engaging site, especially if your focus is on areas like wellness, self-improvement, or spiritual content. A great blog theme should be responsive, adapting beautifully to various devices, from desktops to smartphones. Customizability is key, allowing you to adjust colors, fonts, and design elements to fit your brand's identity without needing coding expertise. SEO optimization is crucial for increasing your blog's visibility in search engines, while fast loading times help retain visitors. Consider themes that support essential plugins such as social sharing and analytics to enhance functionality. User experience is vital, so choose themes with intuitive navigation features like menus and search bars. Clean typography ensures that your content remains easy to read, encouraging visitors to delve into your articles. Explore over 25 premium Elementor WordPress themes tailored for diverse industries through the WordPress Theme Bundle. Opt for a design that prioritizes content and facilitates seamless browsing. Themes such as Astra, Hemingway, and Neve are fantastic choices, while premium options like Divi, Soledad, and Newspaper provide advanced customization and features. Before making a final decision on a theme, take the time to preview the demo, check for regular updates, and evaluate its loading speed to ensure it aligns with your needs as a wellness or health coach. A thoughtfully selected theme will not only elevate your blog's appearance but also enhance its functionality and boost reader satisfaction through mindfulness and motivation."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Themes Carts"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.themescarts.com/"
+msgstr ""
+
+#: functions.php:30
+msgid "https://www.themescarts.com/products/tour-wordpress-theme/"
+msgstr ""
+
+#: functions.php:32
+msgid "https://www.themescarts.com/products/wordpress-theme-bundle/"
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Soul Anchor Patterns"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Soul Anchor Pro"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Buy Pro Theme"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Get All Themes"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Buy Now"
+msgstr ""
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:106
+msgid "© 2024."
+msgstr ""
+
+#: inc/patterns/footer-default.php:106
+msgid "All rights reserved"
+msgstr ""
+
+#: inc/patterns/header-banner.php:6
+msgid "Header Banner"
+msgstr ""
+
+#: inc/patterns/header-default.php:6
+msgid "Default Header"
+msgstr ""
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/patterns/inner-banner.php:6
+msgid "Inner Banner"
+msgstr ""
+
+#: inc/patterns/latest-blog.php:6
+msgid "Latest Blogs"
+msgstr ""
+
+#: inc/patterns/post-one-column.php:6
+msgid "Post One Column"
+msgstr ""
+
+#: inc/patterns/post-two-column.php:6
+msgid "Post Two Column"
+msgstr ""
+
+#: inc/patterns/sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:103
+msgid "Insufficient permissions"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:111
+#: inc/TGM/tgm.php:11
+msgid "Siteready Coming Soon Under Construction"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:205
+msgid "Notice dismissed"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:312
+msgid "Theme Notice Image"
+msgstr ""
+
+#. translators: %s is the theme name
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:328
+msgid "Thank you for installing %s!"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:340
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:345
+msgid "ThemesCarts"
+msgstr ""
+
+#. translators: %1$s: Author Name, %2$s: Link
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:344
+msgid "Unlock the full potential of your new store with %1$s! Get started today by visiting %2$s to explore a wide range of ready-to-use patterns and demo templates, designed to enhance your online shopping experience."
+msgstr ""
+
+#. translators: %s: New version number available for the Siteready Coming Soon Under Construction plugin
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:363
+msgid "⚠️ Siteready Coming Soon Under Construction update available (v%s)."
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:367
+msgid "Update now"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:373
+msgid "Start Theme Activation & Demo Import"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/class-theme-notice.php:378
+msgid "Dismiss"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:25
+msgid "Your Ultimate Block Theme"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:28
+msgid "Version:-"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:42
+msgid "View Live Demo"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:47
+msgid "Free Documentaion"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:60
+msgid "Hello"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:61
+msgid "Welcome to"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:61
+msgid "Free"
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:64
+msgid " ensures your website looks exceptional, offering a smooth and engaging experience. With its stylish design and intuitive layout, it’s crafted to provide seamless navigation, whether you're showcasing destinations, itineraries, or booking options."
+msgstr ""
+
+#: inc/soul-anchor-theme-info-page/templates/theme-details.php:66
+msgid " theme enhances your site’s appeal with user-friendly functionality."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/TGM/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:386
+#: inc/TGM/class-tgm-plugin-activation.php:827
+#: inc/TGM/class-tgm-plugin-activation.php:2533
+#: inc/TGM/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:387
+#: inc/TGM/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:388
+#: inc/TGM/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/TGM/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:934
+#: inc/TGM/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:1121
+#: inc/TGM/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/TGM/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/TGM/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/TGM/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/TGM/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/TGM/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3509
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/TGM/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/TGM/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/TGM/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: styles/citrus-edge.json
+msgctxt "Style variation name"
+msgid "Citrus-Edge"
+msgstr ""
+
+#: styles/citrus-edge.json
+#: styles/graphite-focus.json
+#: styles/green-cyan.json
+#: styles/neo-mint.json
+#: styles/ocean-glass.json
+#: styles/sunset-hue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/citrus-edge.json
+#: styles/graphite-focus.json
+#: styles/green-cyan.json
+#: styles/neo-mint.json
+#: styles/ocean-glass.json
+#: styles/sunset-hue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: styles/citrus-edge.json
+#: styles/graphite-focus.json
+#: styles/green-cyan.json
+#: styles/neo-mint.json
+#: styles/ocean-glass.json
+#: styles/sunset-hue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Extra Primary"
+msgstr ""
+
+#: styles/citrus-edge.json
+#: styles/graphite-focus.json
+#: styles/green-cyan.json
+#: styles/neo-mint.json
+#: styles/ocean-glass.json
+#: styles/sunset-hue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/citrus-edge.json
+#: styles/graphite-focus.json
+#: styles/green-cyan.json
+#: styles/neo-mint.json
+#: styles/ocean-glass.json
+#: styles/sunset-hue.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/graphite-focus.json
+msgctxt "Style variation name"
+msgid "Graphite-Focus"
+msgstr ""
+
+#: styles/green-cyan.json
+msgctxt "Style variation name"
+msgid "Green-Cyan"
+msgstr ""
+
+#: styles/neo-mint.json
+msgctxt "Style variation name"
+msgid "Neo-Mint"
+msgstr ""
+
+#: styles/ocean-glass.json
+msgctxt "Style variation name"
+msgid "Ocean-Glass"
+msgstr ""
+
+#: styles/sunset-hue.json
+msgctxt "Style variation name"
+msgid "Sunset-Hue"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Front Page"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages (Right Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages (Left Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Pages (Without Header Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Full Width)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Left Sidebar)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog (Without Header Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Link and background"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Link and secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to background"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr ""
