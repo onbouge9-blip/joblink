@@ -39,7 +39,10 @@ $stats = [
 
 $stmtDernieres->execute();
 
-$dernieresCandidatures = $stmtDernieres->fetchAll(PDO::FETCH_ASSOC); ?><!doctype html><html lang="fr"><head><meta charset="UTF-8"><title>Dashboard admin</title></head><body><h1>Dashboard administrateur</h1><p>Bonjour <?=htmlspecialchars(Session::get('admin_nom'))?></p><ul><li>Entreprises: <?= (int)$stats['entreprises'] ?></li>
+$dernieresCandidatures = $stmtDernieres->fetchAll(PDO::FETCH_ASSOC); ?><!doctype html><html lang="fr"><head><meta charset="UTF-8"><title>Dashboard admin</title>    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head><body><h1>Dashboard administrateur</h1><p>Bonjour <?=htmlspecialchars(Session::get('admin_nom'))?></p><ul><li>Entreprises: <?= (int)$stats['entreprises'] ?></li>
 <li>Offres: <?= (int)$stats['offres'] ?></li>
 <li>Candidats: <?= (int)$stats['candidats'] ?></li>
 <li>Candidatures: <?= (int)$stats['candidatures'] ?></li></ul> <h2>Les 5 dernières candidatures</h2>

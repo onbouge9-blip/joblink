@@ -33,6 +33,9 @@ $r = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <title>Entreprises - Administration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -75,7 +78,7 @@ $r = $stmt->fetchAll();
 
                 |
 
-               <form method="post" action="delete.php" style="display:inline;" onsubmit="return confirm('Supprimer cette entreprise ?');">
+               <form method="post" action="delete.php" class="form-inline" onsubmit="return confirm('Supprimer cette entreprise ?');">
     <input type="hidden" name="id" value="<?= (int)$x['id'] ?>">
     <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(Session::csrfToken()) ?>">
 

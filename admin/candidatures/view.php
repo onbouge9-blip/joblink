@@ -112,6 +112,8 @@ if (!$candidature) {
 
     <title>Détail de la candidature</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -295,14 +297,7 @@ if (!$candidature) {
     <strong>Lettre de motivation :</strong>
 </p>
 
-<div
-    style="
-        border:1px solid #ccc;
-        padding:15px;
-        max-width:800px;
-        white-space:normal;
-    "
->
+<div class="lettre-motivation">
     <?= nl2br(htmlspecialchars($candidature['lettre_motivation'])) ?>
 </div>
 

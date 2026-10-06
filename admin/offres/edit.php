@@ -155,6 +155,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Modifier une offre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -162,11 +165,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <h1>Modifier l'offre</h1>
 
 <?php if ($msg): ?>
-    <p><?= htmlspecialchars($msg) ?></p>
+    <p class="alert alert-success"><?= htmlspecialchars($msg) ?></p>
 <?php endif; ?>
 
 <?php if ($err): ?>
-    <p><?= htmlspecialchars($err) ?></p>
+    <p class="alert alert-error"><?= htmlspecialchars($err) ?></p>
 <?php endif; ?>
 
 <form method="post">

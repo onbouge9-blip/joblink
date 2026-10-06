@@ -10,4 +10,7 @@
 
     header('Location: dashboard.php');
     exit;
-} $err='E-mail ou mot de passe incorrect.';}catch(PDOException $e){$err='Erreur de connexion.';}}?><!doctype html><html lang="fr"><head><meta charset="UTF-8"><title>Connexion candidat</title></head><body><h1>Connexion candidat</h1><?php if($err):?><p><?=htmlspecialchars($err)?></p><?php endif;?><form method="post"><input type="hidden" name="csrf_token" value="<?= htmlspecialchars(Session::csrfToken()) ?>"><input type="email" name="email" required><input type="password" name="mot_de_passe" required><button>Se connecter</button></form><a href="inscription.php">Créer un compte</a></body></html>
+} $err='E-mail ou mot de passe incorrect.';}catch(PDOException $e){$err='Erreur de connexion.';}}?><!doctype html><html lang="fr"><head><meta charset="UTF-8"><title>Connexion candidat</title>    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head><body><h1>Connexion candidat</h1><?php if($err):?><p class="alert alert-error"><?=htmlspecialchars($err)?></p><?php endif;?><form method="post"><input type="hidden" name="csrf_token" value="<?= htmlspecialchars(Session::csrfToken()) ?>"><input type="email" name="email" required><input type="password" name="mot_de_passe" required><button>Se connecter</button></form><a href="inscription.php">Créer un compte</a></body></html>

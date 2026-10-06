@@ -36,6 +36,9 @@ $rows = $stmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <title>Candidats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -89,7 +92,7 @@ $rows = $stmt->fetchAll();
 
                 <?php if ($r['statut'] === 'actif'): ?>
 
-                   <form method="post" action="toggle.php" style="display:inline;">
+                   <form method="post" action="toggle.php" class="form-inline">
     <input type="hidden" name="id" value="<?= (int)$r['id'] ?>">
     <input type="hidden" name="action" value="desactiver">
     <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(Session::csrfToken()) ?>">
@@ -101,7 +104,7 @@ $rows = $stmt->fetchAll();
 
                 <?php else: ?>
 
-                    <form method="post" action="toggle.php" style="display:inline;">
+                    <form method="post" action="toggle.php" class="form-inline">
     <input type="hidden" name="id" value="<?= (int)$r['id'] ?>">
     <input type="hidden" name="action" value="activer">
     <input type="hidden" name="csrf_token" value="<?= htmlspecialchars(Session::csrfToken()) ?>">
