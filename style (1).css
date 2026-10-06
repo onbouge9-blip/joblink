@@ -1,0 +1,221 @@
+/* ==========================================================================
+   JobLink Bénin — feuille de style commune (pages PHP)
+   Police des titres : Poppins (chargée via Google Fonts dans chaque <head>)
+   ========================================================================== */
+
+/* ---------- 1. Variables (charte graphique) ---------- */
+:root {
+    --bleu:        #0B5ED7;   /* bleu principal */
+    --bleu-fonce:  #073B7A;   /* bleu foncé */
+    --fond:        #F5F7FA;   /* fond clair */
+    --texte:       #333333;   /* texte */
+    --blanc:       #FFFFFF;   /* blanc */
+
+    /* Dérivés (même famille de bleus) */
+    --bordure:     #D5DCE6;
+    --bleu-pale:   #E7F0FD;
+    --erreur:      #B42318;
+    --erreur-fond: #FDECEA;
+    --succes:      #146C43;
+    --succes-fond: #E6F4EC;
+
+    --police-titres: "Poppins", "Segoe UI", Arial, sans-serif;
+    --police-texte:  system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --rayon: 8px;
+    --ombre: 0 2px 10px rgba(7, 59, 122, .08);
+}
+
+/* ---------- 2. Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--fond); }
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+    background: var(--fond);
+    color: var(--texte);
+    font-family: var(--police-texte);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ---------- 3. Titres (Poppins) ---------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--police-titres);
+    color: var(--bleu-fonce);
+    line-height: 1.25;
+    margin: 0 0 .6em;
+}
+h1 { font-size: 1.9rem; font-weight: 700; padding-bottom: .4em; border-bottom: 3px solid var(--bleu); }
+h2 { font-size: 1.4rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+
+p { margin: 0 0 1em; }
+strong { color: var(--bleu-fonce); }
+
+/* ---------- 4. Liens ---------- */
+a { color: var(--bleu); text-decoration: none; }
+a:hover, a:focus { color: var(--bleu-fonce); text-decoration: underline; }
+
+/* ---------- 5. Formulaires ---------- */
+form {
+    display: grid;
+    gap: 12px;
+    max-width: 560px;
+    margin: 0 0 24px;
+    padding: 24px;
+    background: var(--blanc);
+    border: 1px solid var(--bordure);
+    border-radius: var(--rayon);
+    box-shadow: var(--ombre);
+}
+
+/* Formulaire de recherche / filtres : sur une ligne */
+form[method="get"] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: none;
+}
+form[method="get"] > input,
+form[method="get"] > select { flex: 1 1 180px; width: auto; }
+
+label { font-weight: 500; color: var(--bleu-fonce); }
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    color: var(--texte);
+    background: var(--blanc);
+    border: 1px solid var(--bordure);
+    border-radius: var(--rayon);
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--bleu);
+    box-shadow: 0 0 0 3px rgba(11, 94, 215, .2);
+}
+input:disabled { background: var(--fond); color: #777; cursor: not-allowed; }
+input[type="file"] { padding: 8px; }
+input[type="checkbox"], input[type="radio"] { width: auto; }
+textarea { min-height: 140px; resize: vertical; }
+
+/* ---------- 6. Boutons ---------- */
+button, input[type="submit"], .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font: inherit;
+    font-weight: 600;
+    color: var(--blanc);
+    background: var(--bleu);
+    border: 0;
+    border-radius: var(--rayon);
+    cursor: pointer;
+    transition: background .15s ease;
+}
+button:hover, input[type="submit"]:hover, .btn:hover {
+    background: var(--bleu-fonce);
+    color: var(--blanc);
+    text-decoration: none;
+}
+button:focus-visible, .btn:focus-visible { outline: 3px solid rgba(11, 94, 215, .35); outline-offset: 2px; }
+form button { justify-self: start; }
+
+/* Formulaires en ligne : boutons d'action dans les tableaux (Supprimer, Activer...) */
+.form-inline, td form {
+    display: inline-block;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+td button { padding: 6px 14px; font-size: .875rem; }
+form[action="delete.php"] button { background: var(--erreur); }
+form[action="delete.php"] button:hover { background: #8A1A10; }
+
+/* ---------- 7. Tableaux ---------- */
+table {
+    width: 100%;
+    margin: 0 0 24px;
+    border: 0;
+    border-collapse: collapse;
+    background: var(--blanc);
+    border-radius: var(--rayon);
+    box-shadow: var(--ombre);
+    overflow: hidden;
+}
+th, td {
+    padding: 12px 14px;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid var(--bordure);
+    vertical-align: top;
+}
+th {
+    font-family: var(--police-titres);
+    font-weight: 600;
+    color: var(--blanc);
+    background: var(--bleu-fonce);
+}
+tbody tr:nth-child(even) { background: var(--fond); }
+tbody tr:hover { background: var(--bleu-pale); }
+
+/* Tableaux larges : défilement horizontal sur mobile */
+@media (max-width: 720px) {
+    table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+/* ---------- 8. Cartes (offres, articles) ---------- */
+article {
+    margin: 0 0 20px;
+    padding: 20px 24px;
+    background: var(--blanc);
+    border: 1px solid var(--bordure);
+    border-left: 4px solid var(--bleu);
+    border-radius: var(--rayon);
+    box-shadow: var(--ombre);
+}
+article h2 { margin-bottom: .4em; }
+article p:last-of-type { margin-bottom: .8em; }
+
+/* Les <hr> entre deux cartes sont redondants */
+article + hr { display: none; }
+hr { border: 0; border-top: 1px solid var(--bordure); margin: 24px 0; }
+
+/* ---------- 9. Listes (tableaux de bord) ---------- */
+ul { padding-left: 1.2em; }
+li { margin-bottom: .3em; }
+
+/* ---------- 10. Messages ---------- */
+.alert {
+    margin: 0 0 16px;
+    padding: 12px 16px;
+    border-radius: var(--rayon);
+    border: 1px solid transparent;
+    border-left-width: 4px;
+}
+.alert-error   { color: var(--erreur); background: var(--erreur-fond); border-color: var(--erreur); }
+.alert-success { color: var(--succes); background: var(--succes-fond); border-color: var(--succes); }
+
+/* ---------- 11. Lettre de motivation (fiche candidature) ---------- */
+.lettre-motivation {
+    max-width: 800px;
+    padding: 16px 20px;
+    background: var(--blanc);
+    border: 1px solid var(--bordure);
+    border-radius: var(--rayon);
+    white-space: normal;
+}
+
+/* ---------- 12. Mobile ---------- */
+@media (max-width: 600px) {
+    body { padding: 20px 14px 36px; }
+    h1 { font-size: 1.5rem; }
+    form { padding: 18px; }
+}
